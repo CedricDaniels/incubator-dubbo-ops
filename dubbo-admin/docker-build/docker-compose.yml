@@ -1,0 +1,12 @@
+version: "2"
+services:
+  dubbo-admin:
+    image: docker.mifbb.com/dubbo-admin
+    ## default environment variables
+  #  environment:
+  #    - SERVER.PORT=7001
+  #    - SPRING.ROOT.PASSWORD=123
+  #    - SPRING.GUEST.PASSWORD=guest
+  #    - DUBBO.REGISTRY.ADDRESS=zookeeper://10.66.8.186:2181
+    ports:
+      - "7001:7001"
